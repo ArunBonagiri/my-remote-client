@@ -1,0 +1,10 @@
+Here I'm not providing any icon's except mainicon.png
+
+but here I'm providing properties of other required files 
+
+ 1)mouse.jpg           // dimentions : 290 x 152
+ 2)keyboard.png  	   // 			   300 x 157
+ 3)lockf.png		   //              120 x 120
+ 4)restartb.png		   //			   120 x 120
+ 5)sleepb.png		   //              120 x 120
+ 6)switchf.png         //              120 x 120
