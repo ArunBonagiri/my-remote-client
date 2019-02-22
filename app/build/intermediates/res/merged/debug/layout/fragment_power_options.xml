@@ -1,0 +1,117 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="remote.arun.com.myremote.PowerOptions">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewTempP"
+            android:textSize="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonShutDown"
+            android:src="@drawable/switchf"
+            android:background="#ffffff"
+            android:layout_marginLeft="46dp"
+            android:layout_marginStart="46dp"
+            android:layout_above="@+id/buttonLock"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="66dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonLock"
+            android:src="@drawable/lockf"
+            android:background="#ffffff"
+            android:layout_marginBottom="61dp"
+            android:layout_above="@+id/textViewTempP"
+            android:layout_alignLeft="@+id/buttonSleep"
+            android:layout_alignStart="@+id/buttonSleep" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSleep"
+            android:src="@drawable/sleepb"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_alignTop="@+id/buttonShutDown"
+            android:layout_toRightOf="@+id/buttonShutDown"
+            android:layout_toEndOf="@+id/buttonShutDown"
+            android:background="#ffffff" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonRestart"
+            android:src="@drawable/restartb"
+            android:background="#ffffff"
+            android:layout_below="@+id/buttonShutDown"
+            android:layout_toLeftOf="@+id/buttonSleep"
+            android:layout_toStartOf="@+id/buttonSleep" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="          sleep"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/buttonSleep"
+            android:layout_alignLeft="@+id/buttonSleep"
+            android:layout_alignStart="@+id/buttonSleep"
+            android:textColor="#6d3590" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="         restart"
+            android:id="@+id/textView7"
+            android:layout_below="@+id/buttonRestart"
+            android:layout_alignLeft="@+id/buttonRestart"
+            android:layout_alignStart="@+id/buttonRestart"
+            android:textColor="#565d63" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="           lock"
+            android:id="@+id/textView8"
+            android:layout_below="@+id/buttonRestart"
+            android:layout_alignLeft="@+id/buttonLock"
+            android:layout_alignStart="@+id/buttonLock"
+            android:textColor="#3c6b6c" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="      shutdown"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/buttonSleep"
+            android:layout_alignLeft="@+id/buttonShutDown"
+            android:layout_alignStart="@+id/buttonShutDown"
+            android:textColor="#397483" />
+
+    </RelativeLayout>
+</FrameLayout>

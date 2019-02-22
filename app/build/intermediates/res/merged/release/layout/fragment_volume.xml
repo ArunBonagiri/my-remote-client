@@ -1,0 +1,71 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="remote.arun.com.myremote.Volume">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  +  "
+            android:id="@+id/buttonVi"
+            android:textColor="#fbf7f7"
+            android:backgroundTint="#00838f"
+            android:minHeight="30dp"
+            android:textSize="40dp"
+            android:layout_alignTop="@+id/buttonVd"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  -  "
+            android:id="@+id/buttonVd"
+            android:textColor="#f4f1f1"
+            android:backgroundTint="#00838f"
+            android:minHeight="50dp"
+            android:textSize="40dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/textView2"
+            android:layout_toStartOf="@+id/textView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  volume  "
+            android:id="@+id/textView2"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:background="#00838f"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:minHeight="55dp"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mute"
+            android:id="@+id/buttonVMute"
+            android:textColor="#f4f1f1"
+            android:backgroundTint="#5c6bc0"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:minHeight="70dp"
+            android:layout_below="@+id/buttonVd"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:maxWidth="200dp"
+            android:layout_toLeftOf="@+id/buttonVi"
+            android:layout_toStartOf="@+id/buttonVi" />
+
+    </RelativeLayout>
+</FrameLayout>
