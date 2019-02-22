@@ -41,6 +41,7 @@ you can find more information/quick_documentation of this application on [WikiTa
 
 ### Installing
 this [tutorial](https://maxrohde.com/2014/08/18/import-github-project-to-android-studio/) explained best way to installing a git repo into android-studio
+
 I developed this application on android sdk version(compileSdk 23,buildTools 24.0.1 and targetSdk 23)
 
 ### Contributions
